@@ -10,5 +10,5 @@ print(string.sub(command,0,31))
 local directions = {"study", "?????","profit"}
 
 for index, action in ipairs(directions) do
-    print(string.format(directions[index],index))
+    print(string.format("%i." .. action, index))
 end
