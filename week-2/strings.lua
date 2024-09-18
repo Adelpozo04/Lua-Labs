@@ -1,11 +1,11 @@
 --Adrian
 local firstName, lastName = 'Joe', 'Smith'
 
-print(firstName, lastName)
+print(firstName .. " " .. lastName)
 
 --Adrian
 local command = "If you want to succeed in life:&"
-print(string.sub(command,0,31))
+print(string.sub(command,0, -2))
 
 local directions = {"study", "?????","profit"}
 
