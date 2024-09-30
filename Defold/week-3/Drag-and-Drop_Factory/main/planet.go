@@ -1,3 +1,7 @@
+components {
+  id: "PlanetGo"
+  component: "/main/scripts/PlanetGo.script"
+}
 embedded_components {
   id: "sprite"
   type: "sprite"
@@ -28,7 +32,7 @@ embedded_components {
   "    index: 0\n"
   "    count: 1\n"
   "  }\n"
-  "  data: 74.12121\n"
+  "  data: 75.0\n"
   "}\n"
   ""
 }
