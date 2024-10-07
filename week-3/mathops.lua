@@ -1,3 +1,5 @@
+--Adrian
+
 -- Define a module table
 local mathops = {}
 -- Private helper function
@@ -33,5 +35,7 @@ function mathops.divide(a, b)
     return a / b
     
 end
+
+--Adrian
 -- Return the module table
 return mathops

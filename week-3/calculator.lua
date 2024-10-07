@@ -35,6 +35,7 @@ function calculator.subtract()
 
 end
 
+--Adrian
 function calculator.multiply()
 
     print("Enter two numbers")

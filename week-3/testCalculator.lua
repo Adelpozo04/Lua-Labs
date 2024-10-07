@@ -3,7 +3,7 @@
 local calculator = require("calculator")
 
 calculator.add()
-calculator.subtract()
+pcall(calculator.subtract)
 calculator.multiply()
 calculator.divide()
 
